@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+
+body{
+background-color: black;
+}
+
+
+h1{
+    text-align: center;
+    margin: 1rem 0rem;
+}
+
+form{
+    margin: auto;
+    width: 80%;
+}
+
+form input{
+    padding: 0.3rem 0.9rem;
+    color: black;
+    font-size: 1rem;
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+}
+
+
+
+.main-box{
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    padding: 0rem 0.8rem;
+    gap: 15px;
+}
+
+.movieBox{
+    border: 1px solid whitesmoke;
+    background-color: rgb(158, 158, 163);
+}
+
+.imgbox{
+    width: 100%;
+}
+
+.imgbox img{
+    width: 100%;
+}
+
+
+
+.movie-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 0.8rem;
+}
